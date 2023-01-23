@@ -8,6 +8,7 @@ import { BiMap } from "react-icons/bi";
 import { AiOutlineMail } from "react-icons/ai";
 import { MdOutlineDateRange } from "react-icons/md";
 import img from "../assets/img/propic1.jpeg";
+
 export const AboutPage = () => {
   return (
     <div class="mx-auto my-auto pl-40 pr-40">
@@ -88,7 +89,7 @@ export const AboutPage = () => {
           </div>
           <div class="row p-4 gap-4">
             <div class="col p-4 border-2 border-gray-800">
-              <p class=" font-bold text-white mb-2 text-lg">    
+              <p class=" font-bold text-white mb-2 text-lg">
                 SERVER SIDE MANAGEMENT
               </p>
               <p class="text-slate-300 xs:bg-blue-500">
