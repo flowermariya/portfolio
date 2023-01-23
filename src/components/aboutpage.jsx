@@ -83,65 +83,34 @@ export const AboutPage = () => {
       </div>
       <div class="container bg-gray-900 flex">
         <div class="flex flex-wrap">
-          <div class="w-full mb-4 p-4">
+          <div class="w-full p-4">
             <p class=" text-xl font-bold text-3xl text-white">What I do</p>
           </div>
-          <div class="row my-4">
-            <div class="col">
-              <div class="col  mb-3 font-bold">
-                <p class=" font-bold text-white">WEB DEVELOPMENT</p>
-              </div>
-              <div class="col text-slate-300 xs:bg-blue-500">
+          <div class="row p-4 gap-4">
+            <div class="col p-4 border-2 border-gray-800">
+              <p class=" font-bold text-white mb-2 text-lg">    
+                SERVER SIDE MANAGEMENT
+              </p>
+              <p class="text-slate-300 xs:bg-blue-500">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam euismod volutpat.
-              </div>
+              </p>
             </div>
-            <div class="col">
-              <div class="col  mb-3 font-bold">
-                <p class=" font-bold text-white">UI/UX DESIGN</p>
-              </div>
-              <div class="col text-slate-300 xs:bg-blue-500">
+            <div class="col p-4 border-2 border-gray-800">
+              <p class=" font-bold text-white mb-2 text-lg">WEB DEVELOPMENT</p>
+              <p class="text-slate-300 xs:bg-blue-500">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam euismod volutpat.
-              </div>
+              </p>
             </div>
-            <div class="col">
-              <div class="col  mb-3 font-bold">
-                <p class=" font-bold text-white">APP DEVELOPMENT</p>
-              </div>
-              <div class="col text-slate-300 xs:bg-blue-500">
+            <div class="col p-4 border-2 border-gray-800">
+              <p class=" font-bold text-white mb-2 text-lg">
+                SOFTWARE DEVELOPMENT
+              </p>
+              <p class="text-slate-300 xs:bg-blue-500">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam euismod volutpat.
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <div class="col  mb-3 font-bold">
-                <p class=" font-bold text-white">PHOTOGRAPHY</p>
-              </div>
-              <div class="col text-slate-300 xs:bg-blue-500">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam euismod volutpat.
-              </div>
-            </div>
-            <div class="col">
-              <div class="col  mb-3 font-bold">
-                <p class=" font-bold text-white">MANAGEMENT</p>
-              </div>
-              <div class="col text-slate-300 xs:bg-blue-500">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam euismod volutpat.
-              </div>
-            </div>
-            <div class="col">
-              <div class="col  mb-3 font-bold">
-                <p class=" font-bold text-white">APP DEVELOPMENT</p>
-              </div>
-              <div class="col text-slate-300 xs:bg-blue-500">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam euismod volutpat.
-              </div>
+              </p>
             </div>
           </div>
         </div>
