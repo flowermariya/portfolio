@@ -22,41 +22,41 @@ export const Navbar = () => {
         <div class="container mx-auto px-8 py-8 space-x-4 ">
           <Link
             to="/home"
-            class="bg-gray-800 hover:bg-rose-500 text-white font-bold py-2 px-4 rounded inline-flex items-center"
+            class="bg-gray-800 space-x-1.5 hover:bg-rose-500 text-white font-bold py-2 px-4 rounded inline-flex items-center"
           >
             <FcHome />
             <p class="p-1">Home</p>
           </Link>
           <Link
             to="/about"
-            class="bg-gray-800 hover:bg-rose-500 text-white font-bold py-2 px-4 rounded inline-flex items-center"
+            class="bg-gray-800 space-x-1.5 hover:bg-rose-500 text-white font-bold py-2 px-4 rounded inline-flex items-center"
           >
             <FcPortraitMode />
             <p class="p-1">About</p>
           </Link>
           <Link
-            to="/about"
-            class="bg-gray-800 hover:bg-rose-500 text-white font-bold py-2 px-4 rounded inline-flex items-center"
+            to="/experience"
+            class="bg-gray-800 space-x-1.5 hover:bg-rose-500 text-white font-bold py-2 px-4 rounded inline-flex items-center"
           >
             <FcDocument />
             <p class="p-1">Experience & Education</p>
           </Link>
           <Link
-            to="/about"
-            class="bg-gray-800 hover:bg-rose-500 text-white font-bold py-2 px-4 rounded inline-flex items-center"
+            to="/"
+            class="bg-gray-800 space-x-1.5 hover:bg-rose-500 text-white font-bold py-2 px-4 rounded inline-flex items-center"
           >
             <FcPrivacy />
             <p class="p-1">Works</p>
           </Link>
           <Link
-            to="/about"
-            class="bg-gray-800 hover:bg-rose-500 text-white font-bold py-2 px-4 rounded inline-flex items-center"
+            to="/contact"
+            class="bg-gray-800 space-x-1.5 hover:bg-rose-500 text-white font-bold py-2 px-4 rounded inline-flex items-center"
           >
             <FcContacts />
             <p class="p-1">Contact</p>
           </Link>
           <Link
-            to="/about"
+            to="/"
             class="bg-gray-800 hover:bg-rose-500 text-white inline-flex items-center rounded-full h-12 w-12 justify-center"
           >
             <CiDark />
