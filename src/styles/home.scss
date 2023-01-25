@@ -1,0 +1,16 @@
+.column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.center-round-image {
+  border-radius: 50%; /* make the image round */
+  width: 260px; /* set the width of the image */
+  height: 260px; /* set the height of the image */
+}
+
+.dowanload-btn {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
