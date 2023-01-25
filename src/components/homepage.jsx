@@ -1,46 +1,41 @@
-import { CiDark } from "react-icons/ci";
+import "../styles/home.scss";
+import img from "../assets/img/pro.jpg";
 import { BsFacebook, BsLinkedin, BsTwitter } from "react-icons/bs";
-import img from "../assets/img/bg-1.png";
+import resume from "../assets/Resume_Updated.pdf";
+
 export const HomePage = () => {
   return (
-    <>
-      <div class="container pl-20 pr-20 bg-gray-200  grid grid-cols-2" id="Home">
-        <div class="col-span-1">
-          <p class="text-xl font-bold">Iam Flower Mariya, </p>
-          <p>Software Developer</p>
-          <p class="text-justify">
-            I'm Creative Director and UI/UX Designer from Sydney, Australia,
-            working in web development and print media. I enjoy turning complex
-            problems into simple, beautiful and intuitive designs. My aim is to
-            bring across your message and identity in the most creative way. I
-            created web design for many famous brand companies.
-          </p>
-          <div class="container mx-auto px-8 py-8 space-x-4 ">
-            <button class="bg-gray-300 hover:bg-gray-400 inline-flex items-center rounded-full h-12 w-12 justify-center">
+    <div class="mx-auto my-auto pl-40 pr-40 flex">
+      <div class="row p-4 gap-4">
+        <div class="col p-4">
+          <img
+            class="rounded-full w-[250px] h-[250px] 2xl:w-[280px] 2xl:h-[280px]"
+            src={img}
+            alt="about avatar"
+          />
+          <p class="mx-auto px-12 py-4 space-x-4 text-heading">Flower Mariya</p>
+          <p class="px-14 text-content">Software Developer</p>
+          <div class="mx-auto px-12 py-4 space-x-4 text-white ">
+            <button class="bg-slate-700 inline-flex items-center rounded-lg h-12 w-12 justify-center">
               <BsLinkedin size={20} />
             </button>
-            <button class="bg-gray-300 hover:bg-gray-400 inline-flex items-center rounded-full h-12 w-12 justify-center">
+            <button class=" bg-slate-700 inline-flex items-center rounded-lg h-12 w-12 justify-center">
               <BsTwitter size={20} />
             </button>
-            <button class="bg-gray-300 hover:bg-gray-400 inline-flex items-center rounded-full h-12 w-12 justify-center">
+            <button class=" bg-slate-700 inline-flex items-center rounded-lg h-12 w-12 justify-center">
               <BsFacebook size={20} />
             </button>
           </div>
-          <button class="bg-primary text-white px-4 py-2 rounded-lg">
-            View Resume
-          </button>
-          <button class="bg-transparent text-black border border-black px-4 py-2 rounded-lg">
-            Contact
-          </button>
-        </div>
-        <div class="col-span-1">
-          <img
-            src={img}
-            alt="profile image"
-            class="rounded-full object-cover"
-          />
+          <div class="mx-auto px-11 py-1 space-x-4">
+            <button
+              onClick={() => window.open(resume)}
+              class="bg-rose-500 text-white font-bold py-2 px-4 rounded-full hover:scale-105 hover: text-white"
+            >
+              View My Resume
+            </button>
+          </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };

@@ -19,7 +19,7 @@ export const Navbar = () => {
         </div>
       </div>
       <div class="float-right">
-        <div class="container mx-auto px-8 py-8 space-x-4 ">
+        <div class=" container mx-auto px-8 py-8 space-x-4 sticky-top">
           <Link
             to="/home"
             class="bg-gray-800 space-x-1.5 hover:bg-rose-500 text-white font-bold py-2 px-4 rounded inline-flex items-center"
@@ -42,7 +42,7 @@ export const Navbar = () => {
             <p class="p-1">Experience & Education</p>
           </Link>
           <Link
-            to="/"
+            to="/work"
             class="bg-gray-800 space-x-1.5 hover:bg-rose-500 text-white font-bold py-2 px-4 rounded inline-flex items-center"
           >
             <FcPrivacy />
